@@ -13,6 +13,8 @@ theme = "robust"
 # googleAnalytics = "UA-52059413-2" # Optional
 # disqusShortname = "tanasinn"
 
+publishDir = "docs"
+
 [params]
   description = ""
   dateformat = "Jan 2, 2006" # Optional
@@ -30,4 +32,4 @@ theme = "robust"
   # twitter = "https://twitter.com/_sin_tanaka"
 
 [outputs]
-page = [ "HTML"] # if you want AMP enable.
+  page = [ "HTML"] # if you want AMP enable.
