@@ -1,6 +1,7 @@
 <article class="sn">
-
-  <div class="thumb thumb-{{ .File.UniqueID }}"></div>
+  {{ if isset .Params "thumbnail" }}
+  <div class="thumb" style="background-image: url({{.Params.thumbnail}})"></div>
+  {{ end }}
 
   <header class="article-header">
     <h1 class="title">{{ .Title }}</h1>

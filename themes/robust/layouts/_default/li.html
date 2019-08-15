@@ -1,6 +1,11 @@
 <article class="li">
   <a href="{{ .Permalink }}">
-    <div class="thumb thumb-{{ .File.UniqueID }}"></div>
+    {{ if isset .Params "thumbnail" }}
+    <div class="thumb" style="background-image: url({{.Params.thumbnail}})"></div>
+    {{ else }}
+    <div class="thumb thumb-{{ .File.UniqueID }}" >
+    </div>
+    {{ end }}
 
     <div class="inner">
       <h2 class="title">{{ .Title }}</h2>

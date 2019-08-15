@@ -1,9 +1,9 @@
 BaseUrl= "http://example.com/"
 LanguageCode= "en-US"
-Title= "My blog is awesome"
+Title= "Tôi là Dũng"
 paginate = 5
-DisqusShortname = "YOUR_SHORT_NAME_HERE"
-Copyright = "All rights reserved - 2015"
+DisqusShortname = ""
+Copyright = "All rights reserved - 2019"
 canonifyurls = true
 theme = "robust"
 
@@ -22,12 +22,12 @@ theme = "robust"
   logofontfamily = "Lobster, cursive" # Optional, Override logo font.
 
 [params.author]
-  thumbnail = "images/author.jpg"
-  name = "sin-tanaka"
-  description = "<p>長野市の会社員です。主に技術のことを書きます。<a href='https://blog.sin-tanaka.com/about/'>このブログについて</a></p><p>I work in Nagano, write about tech, programing and my product.</p>"
-  facebook = "https://www.facebook.com/the.sin.tanaka"
-  twitter = "https://twitter.com/_sin_tanaka"
-  github = "https://github.com/sin-tanaka"
+  thumbnail = "images/avatar.jpg"
+  avatar = "images/avatar.jpg"
+  name = "Nguyễn Tiến Dũng"
+  description = "<p>Tôi là một lập trình viên web, thích trồng cây và nhìn những hạt mầm nảy nở. Tôi thích sự mới mẻ và những thử thách làm cho cuộc sống luôn thú vị.</p>"
+  facebook = "https://www.facebook.com/dungnguyen.ajt"
+  # twitter = "https://twitter.com/_sin_tanaka"
 
 [outputs]
-page = [ "HTML", "AMP" ] # if you want AMP enable.
+page = [ "HTML"] # if you want AMP enable.

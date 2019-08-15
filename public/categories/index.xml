@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>http://example.org/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on Tôi là Dũng</title>
+    <link>http://example.com/categories/</link>
+    <description>Recent content in Categories on Tôi là Dũng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <copyright>All rights reserved - 2019</copyright>
+    <lastBuildDate>Mon, 15 Jun 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>releases</title>
+      <link>http://example.com/categories/releases/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/categories/releases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tranquilpeak</title>
+      <link>http://example.com/categories/tranquilpeak/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/categories/tranquilpeak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>showcase appliquée</title>
+      <link>http://example.com/categories/showcase-appliqu%C3%A9e/</link>
+      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/categories/showcase-appliqu%C3%A9e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>features</title>
+      <link>http://example.com/categories/features/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/categories/features/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
