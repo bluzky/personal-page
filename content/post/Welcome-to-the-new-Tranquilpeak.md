@@ -28,7 +28,7 @@ Tranquilpeak is a gorgeous responsive theme for Hugo blog framework. It has many
 Tranquilpeak is a gorgeous responsive theme for Hugo blog framework. It has many features and integrated services to improve user experience.
 <!-- toc -->
 
-Hoo hoo hoo
+# Hoo hoo hoo
 
 # Tranquilpeak
 
